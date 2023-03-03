@@ -1,5 +1,5 @@
 import random
 
-score = random.randint(1, 12)
+score = random.randint(2, 12)
 
 print(score)
