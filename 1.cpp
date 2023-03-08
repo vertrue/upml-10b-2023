@@ -1,5 +1,4 @@
 #include <iostream>
-#include <math>
 
 using namespace std;
 
@@ -10,19 +9,19 @@ int main()
     cin >> n;
     
     // створення масиву
-    int a[n];
+    int *a = new int[n];
     for(int i = 0; i < n; i++)
     {
         cin >> a[i];
     }
     
     // знаходження максимуму
-    int max_el = 0;
+    int max_el = a[0];
     for(int i = 1; i < n; i++)
     {
-        max_el = max(max_el, a[i]);
+        if(max_el<a[i]){
+            max_el = a[i];
+        }
     }
-    
-    // виведення максимального елемента
     cout << max_el << endl;
 }
