@@ -17,15 +17,13 @@ int main()
     
     // сума елементів на парних місцях (нумерація з 0)
     int summa = 0;
-    for(int i = 1; i < n; i++)
+    for(int i = 1; i < n; i += 2)
     {
-        if(a[i] % 2 = 0)
-        {
             summa += a[i];
-        }
     }
     
     // виведення
     cout << summa << endl;
 }
+
 
