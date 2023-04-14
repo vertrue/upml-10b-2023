@@ -16,12 +16,12 @@ int main()
     }
     
     // чи є нуль нулів
-    bool flag = true;
+    bool flag = false;
     for(int i = 1; i < n; i++)
     {
-        if(a[i] = 00)
+        if(a[i] == 0)
         {
-            flag = false
+            flag = true
         }
     }
     
