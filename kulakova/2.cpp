@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+#include <math>
 
 using namespace std;
 
@@ -17,13 +17,12 @@ int main()
     }
     
     // знаходження мінімуму
-    int min_el = a[0];
+    int min_el = 0;
     for(int i = 1; i < n; i++)
     {
-        min_el = min(min_el, a[i]);
+        min_el = min(min_el, a[i])
     }
     
-    // виведення мінімального елемента
+    // виведення максимального елемента
     cout << min_el << endl;
-    return 0;
 }
