@@ -1,16 +1,12 @@
-n = int(input())
+from f import v10
 
+n = int(input())
 a = []
 for i in range(n):
     el = int(input())
     a.append(el)
     
-flag = False
-for i in range(n):
-    if a[i] == 0:
-        flag = True
-        
-if flag:
+if v10(n, a):
     print("є")
 else:
     print("нема")
