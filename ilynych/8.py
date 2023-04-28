@@ -1,5 +1,7 @@
-n=int(input())
-summa=0
-for i in range(n+1):
-    summa+=i
-print(summa)
+n = int(input( ))
+Sum = 0
+for i in range(n):
+	a = int(input( ))
+	if a < 5:
+	    Sum = Sum + a
+print (Sum)
