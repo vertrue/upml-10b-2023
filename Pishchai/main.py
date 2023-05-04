@@ -1,8 +1,9 @@
 n = int(input())
 a = [ ]
+if i in range(n):
+   el = int(input())
+   a.append(el)
 print(a)
 summa = 0
-for i in range(n):
-    if a[i] <=10:
-        summa+=a[i]
+
         print(summa)
