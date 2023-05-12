@@ -8,5 +8,4 @@ if i in range(n):
 print(a)
 summa = 0
 if v10(n, a):
-
-        print(summa)
+   print(summa)
