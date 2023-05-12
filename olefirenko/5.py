@@ -1,4 +1,4 @@
-def main():
+
  n=int(input())
  a=[]
  for i in range (0,n):
@@ -10,4 +10,4 @@ def main():
     summa=summa+a[i]
  print(summa)
  
-main()
+
