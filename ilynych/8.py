@@ -1,7 +1,9 @@
+from f import v8
 n = int(input( ))
 Sum = 0
+a=[]
 for i in range(n):
-	a = int(input( ))
-	if a < 5:
-	    Sum = Sum + a
-print (Sum)
+	b = int(input( ))
+	a.append(b)
+print(v8(n, a))
+	
